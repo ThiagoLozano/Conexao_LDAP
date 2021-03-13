@@ -26,7 +26,7 @@ class Conexao:
                 self.config = json.load(f)
             self.logger.info('Arquivo de configuração carregado com sucesso')
         except Exception as error:
-            self.logger.info('Problemas ao carregar arquivo de configuração - ERROR: {}'.format(str(error)))
+            self.logger.error('Problemas ao carregar arquivo de configuração - ERROR: {}'.format(str(error)))
             exit(1)
 
         # Configuração LDAP.
