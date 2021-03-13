@@ -6,5 +6,6 @@
         "Password": "",
         "Search_Groups": ""
     },
-    "Grupos_LDAP":[""]
+    "Grupos_LDAP":[""],
+    "Teste": []
 }
