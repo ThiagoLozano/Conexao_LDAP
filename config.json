@@ -1,0 +1,10 @@
+{
+    "AD": {
+        "Server": "",
+        "Port": "",
+        "User": "",
+        "Password": "",
+        "Search_Groups": ""
+    },
+    "Grupos_LDAP":[""]
+}
